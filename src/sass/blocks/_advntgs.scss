@@ -1,0 +1,45 @@
+.advntgs {
+    min-height: 470px;
+    padding: 69px 0 78px 0;
+    background-color: #f6f6f6;
+    &__header {
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    &__icon {
+        width: 227px;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+        img {
+            width: 70px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 38px;
+        }
+        .advntgs__subscribtion {
+            font-size: 14px;
+            font-weight: 300;
+            color: #0d0d0d;
+            margin-top: 26px;
+            line-height: 1.2;
+            a {
+                color: #0d0d0d;
+                text-decoration: underline;    
+            }
+        }
+    }    
+
+    
+
+}
