@@ -1,0 +1,35 @@
+.comments {
+    margin-bottom: 70px;
+}
+.comment {
+    display: flex;
+    margin-bottom: 102px;
+    &__photo {
+        margin-right: 62px; 
+        img {
+            border-radius: 50%;
+            width: 169px;
+            height: 169px;            
+        }
+    }
+    &__name {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 700;
+        color: #0d0d0d;
+        }
+    &__expirience {
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 300;
+        color: #646464;
+        margin-top: 10px;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #0d0d0d;
+        margin-top: 20px;
+    }    
+}
