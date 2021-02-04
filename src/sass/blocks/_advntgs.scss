@@ -14,24 +14,31 @@
         font-weight: 700;
         color: #0d0d0d;
         text-align: center;
+        &_animated  {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
         img {
             width: 70px;
             display: block;
             margin: 0 auto;
             margin-bottom: 38px;
         }
-        .advntgs__subscribtion {
-            font-size: 14px;
-            font-weight: 300;
+   
+    }  
+    &__subscribtion {
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin-top: 26px;
+        line-height: 1.2;
+        a {
             color: #0d0d0d;
-            margin-top: 26px;
-            line-height: 1.2;
-            a {
-                color: #0d0d0d;
-                text-decoration: underline;    
-            }
+            text-decoration: underline;    
         }
-    }    
+    }
 
     
 
